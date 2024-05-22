@@ -45,6 +45,9 @@ importers:
       '@types/express-session':
         specifier: ^1.18.0
         version: 1.18.0
+      '@types/node':
+        specifier: ^20.12.12
+        version: 20.12.12
 
 packages:
 
