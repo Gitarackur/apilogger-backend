@@ -1,0 +1,17 @@
+{
+	"extends": "tsconfig/backend.json",
+	"exclude": ["node_modules"],
+
+	"compilerOptions": {
+		"outDir": "./dist",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "ES2016",
+		"module": "CommonJS",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"moduleResolution": "Node"
+	}
+}
